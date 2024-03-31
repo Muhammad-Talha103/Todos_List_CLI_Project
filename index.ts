@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 
 import inquirer from "inquirer";
 
@@ -16,6 +17,7 @@ while(addmore){
                 type:"confirm",
                 name:"useradd",
                 message:"What you want todos?",
+                default:"yes"
             }
         ]
         );
